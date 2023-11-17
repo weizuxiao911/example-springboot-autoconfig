@@ -1,0 +1,12 @@
+# EnableAutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+cn.weizuxiao.framework.context.SpringContext,\
+cn.weizuxiao.framework.redis.RedissonConfig,\
+cn.weizuxiao.framework.redis.RedissonProperties,\
+cn.weizuxiao.framework.redis.RedisCacheManagerConfig,\
+cn.weizuxiao.framework.redis.RedisLockAspectHandler,\
+cn.weizuxiao.framework.redis.RedisMessageListenerConfig,\
+cn.weizuxiao.framework.redis.RedisKeyExpireListenerConfig,\
+cn.weizuxiao.framework.redis.RedisKeyDeleteListenerConfig,\
+cn.weizuxiao.framework.redis.RedisTemplateConfig,\
+cn.weizuxiao.framework.websocket.WebSocketConfig
